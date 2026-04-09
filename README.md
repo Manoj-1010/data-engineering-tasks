@@ -1,4 +1,4 @@
-# Data Enngineering Tasks
+# Data Engineering Tasks
 
 ## Task 1: Excel Mapping
 Load data from source Excel file and map monthly data to output template by month abbreviation. Extracts revenue values and populates corresponding columns.
