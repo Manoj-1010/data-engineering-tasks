@@ -9,6 +9,6 @@ Consolidate multi-month MIS data (April/May/June) into a single output file. Ext
 ## Task 3: CLI Data Processing Tool
 Interactive command-line utility for CSV/JSON data processing with three operations:
 
-`ingest`: Display dataset metadata (rows, columns, data types)
-`validate`: Check data quality (missing values, duplicates, type consistency)
-`transform`: Clean and export data (normalize columns, remove duplicates, handle nulls)
+- `ingest`: Display dataset metadata (rows, columns, data types)
+- `validate`: Check data quality (missing values, duplicates, type consistency)
+- `transform`: Clean and export data (normalize columns, remove duplicates, handle nulls)
