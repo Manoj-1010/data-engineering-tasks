@@ -1,0 +1,46 @@
+Session started. Logging to datatool_run_20260409_104739.log
+
+Welcome to Datatool CLI. Type 'help' to see commands or 'exit' to quit.
+
+--- Ingestion Report: input_dataset.csv ---
+Number of rows: 5250
+Number of columns: 4
+
+Column Names:
+ User Name , Age, Account Balance , Status
+
+Data Types:
+ User Name           object
+Age                 float64
+Account Balance     float64
+Status               object
+dtype: object
+-----------------------------------
+
+
+--- Validation Report: input_dataset.csv ---
+1. Missing/Null Values:
+ User Name     266
+Age            528
+
+2. Duplicate Rows:
+Found 250 exact duplicate row(s).
+
+3. Inconsistent Data Types:
+No immediate data type inconsistencies detected.
+-----------------------------------
+
+Error: the following arguments are required: output_file
+Type 'help' for usage.
+
+--- Transformation Process ---
+Standardized column names.
+Removed 250 duplicate rows.
+Handled 750 missing values.
+
+Success: Cleaned data saved to transformed_dataset.csv
+------------------------------
+
+Exiting datatool. Goodbye!
+
+Session ended.
