@@ -1,0 +1,35 @@
+# Names of cities for which we need weather details
+cities:
+  - XXXX
+
+
+# City metadata API URL
+city_data_url: ""
+# OpenMeteo API URL
+openmeteo_url: ""
+# Nasa Power API URL
+nasapower_url: ""
+
+
+
+timezone: 
+
+start_year: yyyy
+end_year: yyyy
+
+openmeteo_bronze_storage_base_path: ""
+nasapower_bronze_storage_base_path: ""
+
+silver_storage_base_path: ""
+
+gold_storage_base_path: ""
+
+
+coordinates_data_location: ""
+
+# OpenMeteo daily data parameters
+openmeteo_daily:
+  - XXXX
+
+nasapower_daily:
+  - XXXX
